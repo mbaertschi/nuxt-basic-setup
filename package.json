@@ -1,9 +1,9 @@
 {
-  "name": "nuxt",
+  "name": "nuxt-basic-setup",
   "version": "1.0.0",
-  "description": "My rad Nuxt.js project",
+  "description": "Nuxt.js with typescript, decorators, lazy-loading, and composition api",
   "author": "Michael Baertschi",
-  "private": true,
+  "license": "MIT",
   "scripts": {
     "deps": "yarn upgrade-interactive --latest",
     "dev": "nuxt-ts",

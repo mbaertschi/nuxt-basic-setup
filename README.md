@@ -1,6 +1,12 @@
-# nuxt
+# nuxt-basic-setup
 
 > My rad Nuxt.js project
+
+## What's configured
+
+- [Composition API](https://github.com/nuxt-community/composition-api)
+- [Lazy Loading](https://www.npmjs.com/package/nuxt-lazy-load/v/latest)
+- [Type Stores with Decorators](https://typescript.nuxtjs.org/cookbook/store.html#class-based)
 
 ## Build Setup
 
