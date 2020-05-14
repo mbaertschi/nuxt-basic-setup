@@ -85,6 +85,11 @@ export default defineComponent({
           title: "Inspire",
           to: "/inspire",
         },
+        {
+          icon: "mdi-information",
+          title: "Example Store",
+          to: "/example",
+        },
       ],
       miniVariant: false,
       right: true,
