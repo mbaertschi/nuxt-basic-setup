@@ -55,6 +55,15 @@ export default {
    ** See https://axios.nuxtjs.org/options
    */
   axios: {},
+  /**
+   * Enable runtime linting after save file
+   * https://typescript.nuxtjs.org/guide/lint.html#configuration
+   */
+  typescript: {
+    typeCheck: {
+      eslint: true,
+    },
+  },
   /*
    ** vuetify module configuration
    ** https://github.com/nuxt-community/vuetify-module
