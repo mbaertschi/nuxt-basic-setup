@@ -48,6 +48,7 @@ export default {
     "nuxt-lazy-load",
     // Doc: https://axios.nuxtjs.org/usage
     "@nuxtjs/axios",
+    // Doc: https://pwa.nuxtjs.org/
     "@nuxtjs/pwa",
     // Doc: https://github.com/nuxt-community/dotenv-module
     "@nuxtjs/dotenv",
@@ -59,7 +60,7 @@ export default {
   axios: {},
   /**
    * Enable runtime linting after save file
-   * https://typescript.nuxtjs.org/guide/lint.html#configuration
+   * See https://typescript.nuxtjs.org/guide/lint.html#configuration
    */
   typescript: {
     typeCheck: {
@@ -68,7 +69,7 @@ export default {
   },
   /*
    ** vuetify module configuration
-   ** https://github.com/nuxt-community/vuetify-module
+   ** See https://github.com/nuxt-community/vuetify-module
    */
   vuetify: {
     customVariables: ["~/assets/variables.scss"],

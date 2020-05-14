@@ -64,6 +64,7 @@
 
 <script lang="ts">
 export default {
+  name: "Index",
   components: {
     Logo: () => import("~/components/Logo.vue"),
     VuetifyLogo: () => import("~/components/VuetifyLogo.vue"),

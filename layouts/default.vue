@@ -66,6 +66,7 @@
 
 <script lang="ts">
 export default {
+  name: "DefaultLayout",
   data() {
     return {
       clipped: false,
