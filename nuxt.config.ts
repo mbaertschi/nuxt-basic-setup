@@ -1,6 +1,6 @@
-import colors from "vuetify/es5/util/colors";
+import { Configuration } from "@nuxt/types";
 
-export default {
+export default <Configuration>{
   mode: "universal",
   /*
    ** Headers of the page
@@ -51,7 +51,7 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     "@nuxtjs/axios",
     // Doc: https://pwa.nuxtjs.org/
-    "@nuxtjs/pwa",
+    ["@nuxtjs/pwa", { meta: false, icon: false, manifest: false }],
     // Doc: https://github.com/nuxt-community/dotenv-module
     "@nuxtjs/dotenv",
   ],
@@ -75,20 +75,8 @@ export default {
    */
   vuetify: {
     customVariables: ["~/assets/variables.scss"],
-    theme: {
-      dark: true,
-      themes: {
-        dark: {
-          primary: colors.blue.darken2,
-          accent: colors.grey.darken3,
-          secondary: colors.amber.darken3,
-          info: colors.teal.lighten1,
-          warning: colors.amber.base,
-          error: colors.deepOrange.accent4,
-          success: colors.green.accent3,
-        },
-      },
-    },
+    treeShake: true,
+    optionsPath: "~/vuetify.options.ts",
   },
   /*
    ** Build configuration
