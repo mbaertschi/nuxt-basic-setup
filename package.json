@@ -28,6 +28,7 @@
     "@nuxtjs/dotenv": "^1.4.0",
     "@nuxtjs/pwa": "^3.0.0-0",
     "nuxt": "^2.0.0",
+    "nuxt-composition-api": "^0.6.3",
     "nuxt-lazy-load": "^1.2.2"
   },
   "devDependencies": {
