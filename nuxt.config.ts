@@ -83,6 +83,6 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    extend(_config, _ctx) {},
+    extend() {},
   },
 };
