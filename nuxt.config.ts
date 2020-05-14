@@ -44,6 +44,8 @@ export default {
    ** Nuxt.js modules
    */
   modules: [
+    // Doc: https://www.npmjs.com/package/nuxt-lazy-load/v/latest
+    "nuxt-lazy-load",
     // Doc: https://axios.nuxtjs.org/usage
     "@nuxtjs/axios",
     "@nuxtjs/pwa",
